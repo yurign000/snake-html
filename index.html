@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+
+    <div id="Jogo">
+        <canvas></canvas>
+        <div id="rightDesign">
+            <div id="Start" onclick="StartGame()">Iniciar</div>
+        </div>
+        
+        <div id="buttons">
+            <div id="btRight" onclick="MoveButtons('right')"></div>
+            <div id="btLeft" onclick="MoveButtons('left')"></div>
+            <div id="btTop" onclick="MoveButtons('top')"></div>
+            <div id="btBottom" onclick="MoveButtons('bottom')"></div>
+            <div id="center"></div>
+        </div>
+    </div>
+    
+    <script src="centralize.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
